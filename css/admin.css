@@ -1,0 +1,106 @@
+.admin-wrapper{
+   display: flex;
+    height: 45rem;
+    
+  
+}
+
+.admin-wrapper .left-sidebar{
+    flex: 2;
+    height: 100%;
+    background: #2196F3;
+
+}
+
+.admin-wrapper .left-sidebar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+
+.admin-wrapper .left-sidebar ul li a {
+    display: block;    
+    padding: 18px;
+    color: white;
+    border-bottom: 1px solid blue;
+}
+
+
+
+.admin-wrapper .left-sidebar ul li a:hover{
+    background: blue;
+}
+.admin-wrapper .admin-conten{
+    flex: 8;
+    height: 100%;
+   
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+}
+
+
+
+.admin-conten  .button-group .btn_btn-big {
+    
+  
+    color: #2196F3;
+}
+
+
+.admin-conten  .button-group .btn_btn-big:hover {
+    
+    background: #2196F3;
+    color: aliceblue;
+}
+
+.admin-conten .page-title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+
+.edit{
+    color: green;
+
+}
+
+.delet{
+    color:red;
+}
+
+.publish{
+    color: blue;
+}
+
+.edit:hover,
+.delet:hover,
+.publish:hover {
+
+    text-decoration: underline;
+}
+
+
+.text-input1{
+    width: 100%;
+}
+
+
+
+form div {
+    margin-bottom: 15px;
+}
